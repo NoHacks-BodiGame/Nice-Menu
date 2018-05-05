@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Hooks">
+      <UniqueIdentifier>{0b28ac10-bf05-4aaf-b390-a1a8fb25ea42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SourceSDK">
+      <UniqueIdentifier>{01e8b029-1669-44af-8309-f67797e04a3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SourceSDK\Interfaces">
+      <UniqueIdentifier>{af87a607-a0c1-4fd8-9061-5fb7d37a90f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SourceSDK\Math">
+      <UniqueIdentifier>{eb1c5ced-9f7e-4807-adbe-50c0d7113134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SourceSDK\Misc">
+      <UniqueIdentifier>{c1d4cb38-3262-4d77-b838-69bf7a064d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SourceSDK\Definitions">
+      <UniqueIdentifier>{3b6105e0-3fe7-4b05-948c-81cc7fe5f1de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SourceSDK\Utils">
+      <UniqueIdentifier>{67956dc1-8806-4ec8-8c62-744d7692f710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features">
+      <UniqueIdentifier>{161f127b-184b-4b74-b290-a569775955ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\LegitBot">
+      <UniqueIdentifier>{84df688a-a56e-4f36-91cd-c9e6f8ede0f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Visuals">
+      <UniqueIdentifier>{7047eac5-8d8d-43c2-881e-b40c9be655c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Features\Misc">
+      <UniqueIdentifier>{5adc6d8e-af33-4618-a08a-79609089173d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{296583ca-c257-4817-acdd-8e1f7b4c6dfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu\MenuObjects">
+      <UniqueIdentifier>{3b0e515c-78e7-4bea-b7c2-dbe624260a14}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\Interfaces\Interfaces.cpp">
+      <Filter>Source Files\SourceSDK\Interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\Math\Math.cpp">
+      <Filter>Source Files\SourceSDK\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\Hooks.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\CreateMove.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\PaintTraverse.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\Utils\Controls.cpp">
+      <Filter>Source Files\SourceSDK\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\Utils\Paint.cpp">
+      <Filter>Source Files\SourceSDK\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\Utils\Utils.cpp">
+      <Filter>Source Files\SourceSDK\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\Utils\VMTHookManager.cpp">
+      <Filter>Source Files\SourceSDK\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceSDK\Misc\CBaseEntity.cpp">
+      <Filter>Source Files\SourceSDK\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\LegitBot\LegitBot.cpp">
+      <Filter>Source Files\Features\LegitBot</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Visuals\Visuals.cpp">
+      <Filter>Source Files\Features\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\FireEventClientSide.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\InternalCursorMoved.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\InternalMousePressed.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks\InternalMouseDoublePressed.cpp">
+      <Filter>Source Files\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\LegitBot\SprayAssist.cpp">
+      <Filter>Source Files\Features\LegitBot</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\LegitBot\Backtracking.cpp">
+      <Filter>Source Files\Features\LegitBot</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Misc\Bhop.cpp">
+      <Filter>Source Files\Features\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\Menu.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\MenuObjects\MBaseObject.cpp">
+      <Filter>Source Files\Menu\MenuObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\MenuObjects\MCategory.cpp">
+      <Filter>Source Files\Menu\MenuObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\MenuObjects\MCheckBox.cpp">
+      <Filter>Source Files\Menu\MenuObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu\MenuObjects\MWindow.cpp">
+      <Filter>Source Files\Menu\MenuObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SourceSDK\sdk.h">
+      <Filter>Source Files\SourceSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Interfaces.h">
+      <Filter>Source Files\SourceSDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Math\Math.h">
+      <Filter>Source Files\SourceSDK\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Math\Vector.h">
+      <Filter>Source Files\SourceSDK\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Misc\CUserCmd.h">
+      <Filter>Source Files\SourceSDK\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Definitions\Definitions.h">
+      <Filter>Source Files\SourceSDK\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Definitions\Indexes.h">
+      <Filter>Source Files\SourceSDK\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Definitions\Offsets.h">
+      <Filter>Source Files\SourceSDK\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\Hooks.h">
+      <Filter>Source Files\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Misc\Color.h">
+      <Filter>Source Files\SourceSDK\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Utils\Controls.h">
+      <Filter>Source Files\SourceSDK\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Utils\Paint.h">
+      <Filter>Source Files\SourceSDK\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Utils\Utils.h">
+      <Filter>Source Files\SourceSDK\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Utils\VMTHookManager.h">
+      <Filter>Source Files\SourceSDK\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Misc\CBaseEntity.h">
+      <Filter>Source Files\SourceSDK\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\LegitBot\LegitBot.h">
+      <Filter>Source Files\Features\LegitBot</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Definitions\Bones.h">
+      <Filter>Source Files\SourceSDK\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Definitions\EFontFlags.h">
+      <Filter>Source Files\SourceSDK\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Definitions\ButtonCodes.h">
+      <Filter>Source Files\SourceSDK\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Math\VMatrix.h">
+      <Filter>Source Files\SourceSDK\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Definitions\Weapons.h">
+      <Filter>Source Files\SourceSDK\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Misc\CBaseCombatWeapon.h">
+      <Filter>Source Files\SourceSDK\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Visuals\Visuals.h">
+      <Filter>Source Files\Features\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Engine.h">
+      <Filter>Source Files\SourceSDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Surface.h">
+      <Filter>Source Files\SourceSDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Panel.h">
+      <Filter>Source Files\SourceSDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\InputSystem.h">
+      <Filter>Source Files\SourceSDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\GameEvent.h">
+      <Filter>Source Files\SourceSDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\EntityList.h">
+      <Filter>Source Files\SourceSDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Client.h">
+      <Filter>Source Files\SourceSDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\ClientMode.h">
+      <Filter>Source Files\SourceSDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\Globals.h">
+      <Filter>Source Files\SourceSDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Misc\EngineTraceStructs.h">
+      <Filter>Source Files\SourceSDK\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Misc\player_info.h">
+      <Filter>Source Files\SourceSDK\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\InputInternal.h">
+      <Filter>Source Files\SourceSDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\LegitBot\SprayAssist.h">
+      <Filter>Source Files\Features\LegitBot</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\LegitBot\Backtracking.h">
+      <Filter>Source Files\Features\LegitBot</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceSDK\Interfaces\EngineTrace.h">
+      <Filter>Source Files\SourceSDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Misc\Bhop.h">
+      <Filter>Source Files\Features\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\Menu.h">
+      <Filter>Source Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\MenuObjects\MBaseObject.h">
+      <Filter>Source Files\Menu\MenuObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\MenuObjects\MCategory.h">
+      <Filter>Source Files\Menu\MenuObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\MenuObjects\MCheckBox.h">
+      <Filter>Source Files\Menu\MenuObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\MenuObjects\MSlider.h">
+      <Filter>Source Files\Menu\MenuObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu\MenuObjects\MWindow.h">
+      <Filter>Source Files\Menu\MenuObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

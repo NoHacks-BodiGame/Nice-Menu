@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8C9E5D10-B999-4EB1-AE2D-658E54B7B55F}</ProjectGuid>
+    <RootNamespace>Retribution</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Features\LegitBot\Backtracking.cpp" />
+    <ClCompile Include="Features\LegitBot\LegitBot.cpp" />
+    <ClCompile Include="Features\LegitBot\SprayAssist.cpp" />
+    <ClCompile Include="Features\Misc\Bhop.cpp" />
+    <ClCompile Include="Features\Visuals\Visuals.cpp" />
+    <ClCompile Include="Hooks\CreateMove.cpp" />
+    <ClCompile Include="Hooks\FireEventClientSide.cpp" />
+    <ClCompile Include="Hooks\Hooks.cpp" />
+    <ClCompile Include="Hooks\InternalCursorMoved.cpp" />
+    <ClCompile Include="Hooks\InternalMouseDoublePressed.cpp" />
+    <ClCompile Include="Hooks\InternalMousePressed.cpp" />
+    <ClCompile Include="Hooks\PaintTraverse.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Menu\Menu.cpp" />
+    <ClCompile Include="Menu\MenuObjects\MBaseObject.cpp" />
+    <ClCompile Include="Menu\MenuObjects\MCategory.cpp" />
+    <ClCompile Include="Menu\MenuObjects\MCheckBox.cpp" />
+    <ClCompile Include="Menu\MenuObjects\MWindow.cpp" />
+    <ClCompile Include="SourceSDK\Interfaces\Interfaces.cpp" />
+    <ClCompile Include="SourceSDK\Math\Math.cpp" />
+    <ClCompile Include="SourceSDK\Misc\CBaseEntity.cpp" />
+    <ClCompile Include="SourceSDK\Utils\Controls.cpp" />
+    <ClCompile Include="SourceSDK\Utils\Paint.cpp" />
+    <ClCompile Include="SourceSDK\Utils\Utils.cpp" />
+    <ClCompile Include="SourceSDK\Utils\VMTHookManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Features\LegitBot\Backtracking.h" />
+    <ClInclude Include="Features\LegitBot\LegitBot.h" />
+    <ClInclude Include="Features\LegitBot\SprayAssist.h" />
+    <ClInclude Include="Features\Misc\Bhop.h" />
+    <ClInclude Include="Features\Visuals\Visuals.h" />
+    <ClInclude Include="Hooks\Hooks.h" />
+    <ClInclude Include="Menu\Menu.h" />
+    <ClInclude Include="Menu\MenuObjects\MBaseObject.h" />
+    <ClInclude Include="Menu\MenuObjects\MCategory.h" />
+    <ClInclude Include="Menu\MenuObjects\MCheckBox.h" />
+    <ClInclude Include="Menu\MenuObjects\MSlider.h" />
+    <ClInclude Include="Menu\MenuObjects\MWindow.h" />
+    <ClInclude Include="SourceSDK\Definitions\Bones.h" />
+    <ClInclude Include="SourceSDK\Definitions\ButtonCodes.h" />
+    <ClInclude Include="SourceSDK\Definitions\Definitions.h" />
+    <ClInclude Include="SourceSDK\Definitions\EFontFlags.h" />
+    <ClInclude Include="SourceSDK\Definitions\Indexes.h" />
+    <ClInclude Include="SourceSDK\Definitions\Offsets.h" />
+    <ClInclude Include="SourceSDK\Definitions\Weapons.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Globals.h" />
+    <ClInclude Include="SourceSDK\Interfaces\ClientMode.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Client.h" />
+    <ClInclude Include="SourceSDK\Interfaces\EntityList.h" />
+    <ClInclude Include="SourceSDK\Interfaces\InputInternal.h" />
+    <ClInclude Include="SourceSDK\Interfaces\EngineTrace.h" />
+    <ClInclude Include="SourceSDK\Interfaces\GameEvent.h" />
+    <ClInclude Include="SourceSDK\Interfaces\InputSystem.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Interfaces.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Panel.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Surface.h" />
+    <ClInclude Include="SourceSDK\Interfaces\Engine.h" />
+    <ClInclude Include="SourceSDK\Math\Math.h" />
+    <ClInclude Include="SourceSDK\Math\Vector.h" />
+    <ClInclude Include="SourceSDK\Math\VMatrix.h" />
+    <ClInclude Include="SourceSDK\Misc\CBaseCombatWeapon.h" />
+    <ClInclude Include="SourceSDK\Misc\CBaseEntity.h" />
+    <ClInclude Include="SourceSDK\Misc\Color.h" />
+    <ClInclude Include="SourceSDK\Misc\CUserCmd.h" />
+    <ClInclude Include="SourceSDK\Misc\EngineTraceStructs.h" />
+    <ClInclude Include="SourceSDK\Misc\player_info.h" />
+    <ClInclude Include="SourceSDK\sdk.h" />
+    <ClInclude Include="SourceSDK\Utils\Controls.h" />
+    <ClInclude Include="SourceSDK\Utils\Paint.h" />
+    <ClInclude Include="SourceSDK\Utils\Utils.h" />
+    <ClInclude Include="SourceSDK\Utils\VMTHookManager.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
